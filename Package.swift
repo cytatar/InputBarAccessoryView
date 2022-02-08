@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "InputBarAccessoryView",
-            type: .dynamic,
+            type: .static,
             targets: ["InputBarAccessoryView"])
     ],
     targets: [
